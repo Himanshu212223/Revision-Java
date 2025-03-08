@@ -108,6 +108,7 @@ public class J_01_Datatypes {
 		Arrays.sort(arr8);
 		
 		//	Arrays.binarySearch(array, value);		- gives position of value
+		//	Pre-requisite of Binary Search is the items should be sorted in either ascending or descending order.
 		System.out.println(Arrays.binarySearch(arr8, 4));
 		
 		
