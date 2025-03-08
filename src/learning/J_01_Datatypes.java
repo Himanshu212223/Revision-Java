@@ -19,9 +19,9 @@ public class J_01_Datatypes {
 		  	- Primitive data types have pre-defined value as 0 or null ( it does not store garbage value)
 		  		but it is only applicable to those variables which are getting used or defined in a class.
 		  		
-		  		If we declare a variable in our main method with initialization in our main method, 
+		  		If we declare a variable in our main method without initialization in our main method, 
 		  			it will throw error.
-		  		But, we declare a variable in our main method with initialization in a class, it will
+		  		But, we declare a variable in our main method without initialization in a class, it will
 		  			return default value either 0 or null.
 		  	
 		 */
@@ -81,8 +81,9 @@ public class J_01_Datatypes {
 //		int arr2[5] ;  						- this will give error
 //		int arr3[5] = {1, 2, 3, 4, 5} ;		- this will give error 	
 		int arr4[] = {1, 2, 3, 4, 5, 6};
-		int arr5[] = new int[5];
+		int arr5[] = new int[5];		// array of size 5 
 		int arr6[] = null ;
+		
 		int[] arr7 ;
 //		int [3] arr6 ;						- this will give error
 //		int[3] arr7 = {1, 2, 3} ; 			- this will give error
