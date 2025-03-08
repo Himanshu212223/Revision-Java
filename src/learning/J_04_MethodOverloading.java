@@ -13,7 +13,7 @@ package learning;
 	- Constructor can also be overloaded.
 	
 	- Java main method can be overloaded as well.
-		That means we can overload the main method.
+		But it will treate other main method as normal method.
 									 
 */
 
