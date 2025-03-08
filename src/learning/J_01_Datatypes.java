@@ -17,7 +17,7 @@ public class J_01_Datatypes {
 		  	
 		  	- Primitive data types are the fundamental building blocks of data manipulation.
 		  	- Primitive data types have pre-defined value as 0 or null ( it does not store garbage value)
-		  		but it is only applicable to those variables which are getting used or defined in a call.
+		  		but it is only applicable to those variables which are getting used or defined in a class.
 		  		
 		  		If we declare a variable in our main method with initialization in our main method, 
 		  			it will throw error.
@@ -32,7 +32,7 @@ public class J_01_Datatypes {
 		
 		// Initialization of value to Variables.
 		boolean status = false;
-		byte b1 = 1 ;
+		byte b1 = 0 ;
 		char c1 = 'c';
 		short s1 = 34 ;
 		int i1 = 34 ;
